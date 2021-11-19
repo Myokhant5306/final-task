@@ -1,0 +1,111 @@
+body {
+  font-family: monospace;
+}
+#mainNav {
+  background-color: rgb(12, 20, 134);
+  color: white;
+  font-family: monospace;
+}
+
+footer {
+  background-color: rgb(12, 20, 134);
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-family: monospace;
+}
+#contact {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: rgb(34, 103, 194);
+}
+div .form-floating mb-3 {
+  border-radius: 15px;
+}
+.copyright {
+  background-color: rgb(12, 5, 70);
+  font-family: monospace;
+}
+#contact .container {
+  font-family: monospace;
+}
+button #submitButton {
+  cursor: pointer;
+}
+body {
+  background: #fcf;
+}
+
+.astrodivider {
+  margin: 64px auto;
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px #042920;
+}
+.astrodivider span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -25px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #4fb39c;
+  background: #fff;
+}
+.astrodivider i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #68beaa;
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: #049372;
+}
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.masthead .container {
+  padding-top: 200px;
+  padding-bottom: 96px;
+  font-family: monospace;
+}
+#about .container {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  font-family: monospace;
+  color: black;
+}
+.masthead-subheading {
+  font-family: monospace;
+}
+.masthead-avatar {
+  max-width: 250px;
+  max-height: 250px;
+}
+header {
+  background-image: url("assets/img/cool-background.svg");
+  background-size: cover;
+  position: relative;
+}
